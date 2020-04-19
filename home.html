@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "shortcut icon" type = "image/x-icon" href = "images/logos/favicon.ico" />
+    <link rel = "stylesheet" type = "text/css" media = "screen" href = "style/main.css" >
+    <script src = "script/main.js" type="text/javascript"></script>
+    <title>Lino || Official</title>
+<style>
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}    
+</style>
+</head>
+<body>
+
+<!-- navbar -->
+<nav>
+    <ul class="topnav" id="dropdownNavClick">
+        <li class="logo"><a href="home.html">lino</a></li>
+        <li><a href="moviez.html">Moviez</a></li>
+        <li><a href="tvshowz.html">TV-Showz</a></li>
+        <li class="topnav-right" onclick="togglesignup()"><a>Sign up</a></li>
+        <li class="topnav-right" onclick="togglesignin()"><a>Sign In</a></li>
+        <li onclick="togglesignin()"><a>Premium</a></li>
+        <li class="dropdownicon" onclick="dropdownNavMenu()"><a href="javascript:void(0);">&#9776;</a></li>
+    </ul>
+</nav>
+<!-- end navbar -->
+    
+<!--sign in and sign up pop-->
+<div class="signin-overlay">
+    <div class="modal-content">
+        <i onclick="togglesignin()" id="sign-close"class="fas fa-times"></i>
+        <h1 class="signin-signup-head">LINO</h1>
+        <form action="test.html">
+            <input id="signinusername" type="text" placeholder="username">
+            <label id="labeluser" style="color:red; visibility:hidden;">invalid username</label>
+            <input id="signinpassword" type="password" placeholder="password">
+            <label id="labelpassword" style="color:red; visibility:hidden;">invalid password</label>
+            <br>
+            <button id="logbtn" onclick="return signin()" type="submit">Sign In</button>
+        </form>
+    </div>
+</div>
+<div class="signup-overlay">
+    <div class="modal-content">
+        <i onclick="togglesignup()" id="sign-close"class="fas fa-times"></i>
+        <h1 class="signin-signup-head">LINO</h1>
+        <form action="test.html">
+            <input id="signupusername" type="text" placeholder="username"> 
+            <label id="labelsignupuser" style="color:red; visibility:hidden;">please fill in a username</label>
+            <input id="signuppassword1" type="password" placeholder="password">
+            <label id="labelsignuppassword" style="color:red; visibility:hidden;">please fill in a password</label>
+            <input id="signuppassword2" type="password" placeholder="comfirm password">
+            <label id="labelsignuppassword2" style="color:red; visibility:hidden;"> please fill in to confirm</label><br>
+            <label id="labelconfirmpassword" style="color:red; visibility:hidden;">password don't match</label>
+            <br>
+            <button id="logbtn" onclick="return signup()" type="submit">Sign Up</button>
+        </form>
+    </div>
+</div>
+<!--end sign in and sign up popup-->
+
+<!--downloading popup-->
+<div class="downloading-overlay">
+    <div class="downloading-modal-content">
+        <i onclick="downloading()" id="sign-close"class="fas fa-times"></i>
+        <h1 class="popup">DOWNLOADING...</h1>
+    </div>
+</div>
+<!--end downloading popup-->
+    
+<!-- header -->
+<div class="header-container">
+    <img class="headImg" src="images/headimg.jpg">
+</div>
+<!-- end header -->
+<hr>
+<!-- row 1 -->
+<div class="header-container">
+    <img class="headImg" src="images/row1.jpg">
+</div>
+<!-- end row 1 -->
+
+<!--Cinematography -->
+<div>
+    <div class="container">
+        <div class="row">
+        <div class="col-7">
+            <div class="cinema"><h1>Cinematography "kìnema"</h1></div><br>
+            <article>
+                <p>Movement, since the don of time, man has been moving. one way or the other. Movement<br>is what man can't stop.
+                 Not only that. Mimicing is one thing. cinematography, the art of motion-picture<br>photography and filming.
+                 In 1830s moving images and motion were produced on revolving drums and disks.<br>But with the help of teachnology, we no longer
+                 moving images on drums and disks.</p>
+            </article>
+        </div>
+        <div class="col-5">
+            <img class="cinematograpy" src="images/cinematograpy.jpg">
+        </div>
+    </div>
+</div>
+<!--end Cinematography -->   
+
+<!-- checkout -->    
+<div class="row">
+    <div class="col-3">
+        <div class="social-media">
+            <iframe src="https://www.youtube.com/embed/RxAtuMu_ph4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <a onclick="downloading()" href="" download=""><i class="fas fa-download"></i></a>
+        </div>
+    </div>
+     <div class="col-3">
+        <div class="social-media">
+            <iframe src="https://www.youtube.com/embed/RxAtuMu_ph4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <a onclick="downloading()" href="" download=""><i class="fas fa-download"></i></a>
+        </div>
+    </div>
+     <div class="col-3">
+        <div class="social-media">
+            <iframe src="https://www.youtube.com/embed/RxAtuMu_ph4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <a onclick="downloading()" href="" download=""><i class="fas fa-download"></i></a>
+        </div>
+    </div>
+     <div class="col-3">
+        <div class="social-media">
+            <iframe src="https://www.youtube.com/embed/RxAtuMu_ph4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <a onclick="downloading()" href="" download=""><i class="fas fa-download"></i></a>
+        </div>
+    </div>
+</div>
+<hr>
+<!-- end checkout-->
+
+<!-- about -->
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <header>
+                <h1 class="aboutHeader">About</h1>
+            </header>
+            <article>
+                <p>
+                    Lino is a website that try to bring all the best of all time moviez.<br>We prodive you with the latest updated moviez..<br>Our team work hard to make sure we prodive<br> you with the best movie quality both low and high magebyte.<br>wishing you great time on the site<br>...Bis Bald... 
+                </p>
+            </article>
+        </div>
+    </div>
+</div>
+<!-- end about -->
+
+
+<!-- scroll up-->
+<a class="scrollupbtn" href="#"><i class="fas fa-arrow-up"></i></a>
+<!-- scroll up-->
+    
+<!-- footer -->
+<div class="footer">
+    <div class="inner-footer">
+
+        <div class="footer-items">
+            <h1>lino</h1>
+            <p>
+                ...Light! Action! Camera!...
+            </p>
+        </div>
+
+        <div class="footer-items">
+            <h2>moviez</h2>
+            <div class="border"></div>
+            <ul>
+                <a href="moviez.html"><li>Moviez</li></a>
+            </ul>
+        </div>
+
+        <div class="footer-items">
+            <h2>tv-showz</h2>
+            <div class="border"></div>
+            <ul>
+                <a href="earlier.html"><li>earlier</li></a>
+                <a href="2019z.html"><li>2019z</li></a>
+                <a href="2018z.html"><li>2018z</li></a>
+                <a href="2017z.html"><li>2017z</li></a>
+                <a href="latez.html"><li>latez</li></a>
+            </ul>
+        </div>
+
+        <div class="footer-items">
+            <div class="social-media">
+                <a href=""><i class="fab fa-facebook-square"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram-square"></i></a>
+                <a href=""><i class="fas fa-envelope"></i></a>
+            </div>
+            <!--creator's name-->
+            <br><br><br><br><p><i>$created by El-nino$</i></p>
+        </div>
+
+    </div>
+    <div class="footer-bottom">
+        Copyright ©<script>document.write(new Date().getFullYear());</script> All rights reserved || Lino
+    </div>
+</div>
+<!-- end footer -->
+    
+<script>
+    function dropdownNavMenu() {
+        var x = document.getElementById("dropdownNavClick");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        }
+        else {
+            x.className = "topnav"
+        }
+    }
+</script>
+    
+
+<link rel= "stylesheet" href="fontawesome-free-5.13.0-web/css/all.min.css">
+</body>
+</html>
