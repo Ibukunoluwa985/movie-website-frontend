@@ -1,5 +1,10 @@
 ***>> This movie website frontend was designed by El-nino. The creator' name at the footer can be removed.
 
+BEFORE USING THE TEMPLATE. YOU SHOULD UNZIP ALL THE ZIPPED DIR. AND COPY ALL IMAGES IN "IMAGE1" AND "IMAGE2" TO "IMAGES"
+AND DELETE IMAGE1 AND IMAGE2 DIR...
+I DIVIDED THEM "IMAGES" SO I COULD UPLOAD THEM ON GITHUB EALY...
+SORRY FOR THE INCONVENIENCES...
+
 
 ***>> The website frontend consist of very little JAVASCRIPT, which is for the signin, signup and the downloading popup.
 
